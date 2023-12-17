@@ -1,0 +1,121 @@
+header {
+    background-color: gainsboro;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 1rem;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.icon {
+    display: flex;
+    color: #333;
+    align-items: center;
+    text-decoration: none;
+    width: 30px; /* Adjust as needed */
+    height: 30px; /* Adjust as needed */
+}
+
+.wrapper .sidebar{
+    background: rgb(37, 136, 193);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 50px;
+    height: 100%;
+    padding: 20px 0;
+    transition: all 0.5s ease;
+}
+
+.sidebar ul {
+
+    list-style: none;
+    padding: 12px;
+    margin: 0;
+
+}
+
+.sidebar li {
+    margin-bottom: 20px;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: white;
+}
+
+.sidebar i {
+    font-size: 24px;
+}
+
+.settings {
+    padding: 0;
+    text-align: center;
+    height: 20px;
+    list-style-type: none;
+
+    position: absolute;
+    bottom: 0;
+    z-index: 50;
+    width: 100%;
+    margin: 0;
+}
+
+.table-no-border, .table-no-border th, .table-no-border td {
+    border: none;
+}
+
+.table-no-border tbody tr:nth-child(odd) {
+    background-color: #8e8e8e !important;
+}
+
+.modal-backdrop.show {
+    opacity: 0 !important;
+}
+
+.second-sidebar {
+    width: 150px; /* Adjust the width as needed */
+    height: 100vh;
+    background-color: white;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    margin-left: 50px;
+    position: fixed;
+}
+
+.second-sidebar ul {
+
+    list-style: none;
+    padding: 12px;
+    margin: 0;
+
+}
+
+.second-sidebar li {
+    margin-bottom: 20px;
+}
+
+.second-sidebar a {
+    text-decoration: none;
+    color: darkgray;
+}
+
+.second-sidebar i {
+    font-size: 24px;
+}
+
+/* HOME */
+.rounded-circle-thumbnail
+{
+      width: 50px !important;
+      height: 50px !important;
+      object-fit: cover;
+      border-radius: 50% !important;
+}
+
